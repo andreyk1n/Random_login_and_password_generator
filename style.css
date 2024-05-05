@@ -1,0 +1,59 @@
+html {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th,
+td {
+    width: 150px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+tr {
+    background-color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e6f7ff;
+}
+
+button {
+    display: inline-block;
+    width: 150px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e6e6e6;
+}
+
+table, .button-group {
+    max-width: 1000px;
+    margin: 0 auto;
+}
