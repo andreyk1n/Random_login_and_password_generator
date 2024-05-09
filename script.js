@@ -96,17 +96,17 @@ function generateTable(count) {
     exportButton.addEventListener('click', exportToCSV);
 }
 
-function generateTable25() {
-    generateTable(25);
+function generateTable250() {
+    generateTable(250);
 }
 
-function generateTable50() {
-    generateTable(50);
+function generateTable500() {
+    generateTable(500);
 }
-const gen10Button = document.getElementById('gen10');
-gen10Button.addEventListener('click', () => generateTable(10));
-const gen25Button = document.getElementById('gen25');
-gen25Button.addEventListener('click', generateTable25);
+const gen10Button = document.getElementById('gen100');
+gen10Button.addEventListener('click', () => generateTable(100));
+const gen25Button = document.getElementById('gen250');
+gen25Button.addEventListener('click', generateTable250);
 
-const gen50Button = document.getElementById('gen50');
-gen50Button.addEventListener('click', generateTable50);
+const gen50Button = document.getElementById('gen500');
+gen50Button.addEventListener('click', generateTable500);
